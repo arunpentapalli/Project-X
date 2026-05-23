@@ -8,6 +8,11 @@ terraform.tfvars
 *.auto.tfvars
 crash.log
 
+# Credentials — never commit these
+*-sa-key.json
+*.json.key
+service-account*.json
+
 # Environment
 .env
 .env.*
